@@ -12,7 +12,8 @@ import Register from "./pages/Register";
 import CaseOpening from "./pages/CaseOpening";
 import Inventory from "./pages/Inventory";
 import Upgrade from "./pages/Upgrade";
-import Contracts from "./pages/Contracts";
+// Временно закомментировал проблемные импорты
+// import Contracts from "./pages/Contracts";
 import Crash from "./pages/Crash";
 import Support from "./pages/Support";
 import Deposit from "./pages/Deposit";
@@ -34,7 +35,8 @@ const App = () => (
             <Route path="/case/:id" element={<CaseOpening />} />
             <Route path="/inventory" element={<Inventory />} />
             <Route path="/upgrade" element={<Upgrade />} />
-            <Route path="/contracts" element={<Contracts />} />
+            {/* Временно закомментировал проблемный роут */}
+            {/* <Route path="/contracts" element={<Contracts />} /> */}
             <Route path="/crash" element={<Crash />} />
             <Route path="/support" element={<Support />} />
             <Route path="/deposit" element={<Deposit />} />
